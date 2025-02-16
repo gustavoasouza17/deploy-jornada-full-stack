@@ -1,9 +1,8 @@
 // Fetch ou axios
-import "dotenv/config";
 import axios from "axios"; // permite fazer qualquer requisição
 
 // const { NODE_ENV } = process.env;
-const URL = "https://deploy-jornada-full-stack-qtwd.onrender.com/api";
+const URL = "http://localhost:3000/api";
 
 const responseArtist = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
