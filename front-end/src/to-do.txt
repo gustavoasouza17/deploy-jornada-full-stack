@@ -1,0 +1,6 @@
+- API - usar o express
+- conexão banco de dados
+- conectar o front-end com o back-end
+- lógicas do play
+- github e deploy
+
